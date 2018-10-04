@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+ol {
+	list-style-type: none;
+}
+
+#header {
+	background-image: url(../img/floral2.png);
+	background-repeat: no-repeat;
+	padding: 50px 10px;
+}
+
+#lista {
+	height: 300px;
+	width: 40%;
+	margin-left: 20px;
+	background-color: blue;
+}
+
+#checks {
+	width: 10%;
+	float: left;
+}
+
+#tareas {
+	width: 90%;
+	padding: 2%;
+	float: left;
+}
+
+#checks li {
+	width: 100%;
+	clear: both;
+}
+
+#checks li img {
+	width: 100%;
+	display: block;
+}
+
+#tareas li {
+	width: 100%;
+	clear: both;
+}
