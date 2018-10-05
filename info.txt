@@ -1,0 +1,3 @@
+funcionalidades jQuery
+bootstrap front-end
+items editar, agregar y borrar

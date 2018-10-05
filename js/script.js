@@ -1,8 +1,22 @@
-document.getElementById('botonItem').addEventListener('click', newItem);
+var itemspaces = [];
+var $espacioLista;
+
+$(document).ready( function(){
+	$espacioLista = $('#items');
+	$('#botonItem').addEventListener('click', newItem);
+});
+
+function Item() {
+	this.check = '<img alt="No completada" src="img/cross.png"';
+	this.texto = prompt('Escriba el elemento que quiere agregar a la lista.');
+	this.button1 = '<button>Editar</button>';
+	this.button2 = '<button>Quitar</button>';
+}
 
 function newItem() {
-	var checkspace = document.getElementById('checks');
-	var itemspace = document.getElementById('tareas');
-	checkspace.innerHTML += '\n<li><img alt="Falta hacer" src="img/cross.png"></li>';
-	itemspace.innerHTML += '\n<li><h4>'+prompt('Escriba el nuevo item de la lista.')+'</h4></li>';
+	var itemLocal = new Item();
+	$itemspaces.push('a');
+	var pos = $itemspaces.indexOf('a');
+	$espacioLista.innerHTML += '\n<li id="item'pos'">'+itemLocal.check+itemLocal.texto+itemLocal.button1+itemLocal.button2+'</li>';
+	$itemspaces[pos] = $('#item'+pos);
 }
