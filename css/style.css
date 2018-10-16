@@ -25,3 +25,30 @@ ol {
 	background-color: blue;
 }
 
+#items li {
+	height: 1.5em;
+	font-size: 15px;
+	width: 100%;
+	float: left;
+}
+
+#botonItem {
+	clear: both;
+}
+
+li button {
+	width: 10%;
+	float: right;
+}
+
+li h4 {
+	width: auto;
+	float: left;
+}
+
+li img {
+	display: block;
+	height: 100%;
+	float: left;
+}
+
