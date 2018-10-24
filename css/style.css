@@ -1,54 +1,20 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+#sideBar {
+	background-color: #cbd4c2;
 }
 
-body {
-	margin: 0 auto;
-	max-width: 80%;
+#listHead {
+	background-color: #929691;
 }
 
-ol {
-	list-style-type: none;
+#listBody {
+	background-color: #fffcff;
 }
 
-#header {
-	background-repeat: no-repeat;
-	padding: 50px 10px;
-}
-
-#lista {
-	height: 300px;
-	width: 40%;
-	margin-left: 20px;
-	background-color: blue;
-}
-
-.listaItems li {
-	height: 1.5em;
-	font-size: 15px;
-	width: 100%;
-	float: left;
-}
-
-#botonItem {
+#listTitle {
 	clear: both;
 }
 
-li button {
-	width: 10%;
-	float: right;
-}
-
-li h4 {
-	width: auto;
-	float: left;
-}
-
-li img {
-	display: block;
-	height: 100%;
-	float: left;
+#listDescription {
+	
 }
 
